@@ -3,10 +3,9 @@ import 'package:medica_app/DataBase/database.dart';
 import 'package:medica_app/model/model_bilirubine.dart';
 import 'package:medica_app/model/model_clairance.dart';
 import 'package:medica_app/model/model_tgo_tgp.dart';
-import 'package:medica_app/ui/Med_details.dart';
 import 'package:medica_app/ui/Result.dart';
 import 'package:medica_app/ui/SplashScreen.dart';
-import 'package:medica_app/ui/add_medecament.dart';
+import 'package:medica_app/ui/ajouter_medicament.dart';
 import 'package:medica_app/ui/adopy_posology.dart';
 import 'package:medica_app/ui/list_med.dart';
 import 'package:medica_app/ui/menu.dart';
@@ -38,8 +37,6 @@ void main() async{
       List_med.id: (context) => List_med(),
       Add_med.id: (context) => Add_med(),
       adopt_poso.id: (context) => adopt_poso(),
-      Med_details.id:(context)=>Med_details(),
-     // Start.id: (context) => Start(),
       Searching_details.id: (context) => Searching_details(),
       SplashScreen.id: (context) => SplashScreen(),
       Result.id: (context)=>Result(),

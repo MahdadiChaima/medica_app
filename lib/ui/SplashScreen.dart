@@ -14,7 +14,7 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     //set time to load the new page
 
-    Future.delayed(Duration(seconds: 11), () {
+    Future.delayed(Duration(seconds: 6), () {
       Navigator.pushReplacement(
           context, MaterialPageRoute(builder: (context) => Menu()));
     });
@@ -46,18 +46,19 @@ class _SplashScreenState extends State<SplashScreen> {
     decoration: BoxDecoration(
     color: Colors.white,
     borderRadius: BorderRadius.only(
-    topRight: Radius.circular(340),
+    topRight: Radius.circular(300),
     topLeft: Radius.circular(0),
-    bottomLeft: Radius.circular(340)),
+    bottomLeft: Radius.circular(300)),
     ),
     ),
     Column(
       children: [
-        SizedBox(height: size.width/2,),
+        SizedBox(height: size.width/1.7,),
         Container(
             child: Image.asset(
               "images/logo.jpg",
               width:size.width/2,
+
             )),
             SizedBox(height:size.width/10),
           Text(

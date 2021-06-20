@@ -5,7 +5,7 @@ import 'package:medica_app/ui/searching_details.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
 
 import '../main.dart';
-import 'add_medecament.dart';
+import 'ajouter_medicament.dart';
 class List_med extends StatefulWidget {
   static String id = 'listMed';
 
