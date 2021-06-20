@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:medica_app/model/model_medicament.dart';
+import 'package:medica_app/DataBase/model/model_medicament.dart';
 import 'package:medica_app/ui/searching_details.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
 

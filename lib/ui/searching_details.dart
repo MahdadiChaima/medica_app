@@ -1,6 +1,6 @@
  import 'package:flutter/material.dart';
  import 'package:flutter/cupertino.dart';
-import 'package:medica_app/controller/functions.dart';
+import 'package:medica_app/controller/repmplir_result_function.dart';
 import 'package:medica_app/main.dart';
 import 'package:medica_app/ui/list_med.dart';
 

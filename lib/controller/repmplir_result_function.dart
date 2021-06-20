@@ -1,6 +1,6 @@
-import 'package:medica_app/model/model_bilirubine.dart';
-import 'package:medica_app/model/model_clairance.dart';
-import 'package:medica_app/model/model_tgo_tgp.dart';
+import 'package:medica_app/DataBase/model/model_bilirubine.dart';
+import 'package:medica_app/DataBase/model/model_clairance.dart';
+import 'package:medica_app/DataBase/model/model_tgo_tgp.dart';
 import 'package:medica_app/ui/searching_details.dart';
 // les fonctions pour remplir les détails de la recherche
 String remplir_clr_inf(Clairance c){

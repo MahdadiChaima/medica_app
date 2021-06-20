@@ -3,11 +3,11 @@ import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:path/path.dart';
 import 'package:path_provider/path_provider.dart';
-import 'package:medica_app/model/model_medicament.dart';
+import 'package:medica_app/DataBase/model/model_medicament.dart';
 
-import 'package:medica_app/model/model_bilirubine.dart';
-import 'package:medica_app/model/model_clairance.dart';
-import 'package:medica_app/model/model_tgo_tgp.dart';
+import 'package:medica_app/DataBase/model/model_bilirubine.dart';
+import 'package:medica_app/DataBase/model/model_clairance.dart';
+import 'package:medica_app/DataBase/model/model_tgo_tgp.dart';
 import 'package:sqflite/sqflite.dart';
 
 class Dbpfe {

@@ -2,9 +2,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:medica_app/DataBase/database.dart';
 import 'package:medica_app/controller/adopt_poso_controller.dart';
-import 'package:medica_app/controller/functions.dart';
+import 'package:medica_app/controller/repmplir_result_function.dart';
 
-import 'package:medica_app/model/model_medicament.dart';
+import 'package:medica_app/DataBase/model/model_medicament.dart';
 import 'package:medica_app/ui/Result.dart';
 
 import '../main.dart';
@@ -69,6 +69,7 @@ class _adopt_posoState extends State<adopt_poso> {
                 child: FutureBuilder(
                     future: dbmanager.getAllMed(),
                     builder: (context, snapshot) {
+                      // ignore: missing_return
                       if (snapshot.hasData) {
                         meds = snapshot.data;
                         return DropdownButton<String>(

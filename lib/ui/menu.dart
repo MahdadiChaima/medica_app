@@ -3,14 +3,13 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:medica_app/ui/adopy_posology.dart';
 import 'package:medica_app/ui/list_med.dart';
-import 'package:medica_app/widget_specifique/button_menu.dart';
 
 class Menu extends StatelessWidget {
-  //une variable n3ayttolo f main routes bah ykhalina za3ma ndiro trig mn screen l screen
+
   static String id = 'menu';
   @override
   Widget build(BuildContext context) {
-    //tajbed size mn tel bah ki ndeclariw size ta3 7adja tet3adl 3la 7ssab kol tel
+
     Size size=MediaQuery.of(context).size;
 
 

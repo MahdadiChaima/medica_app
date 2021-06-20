@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:medica_app/DataBase/database.dart';
-import 'package:medica_app/model/model_bilirubine.dart';
-import 'package:medica_app/model/model_clairance.dart';
-import 'package:medica_app/model/model_tgo_tgp.dart';
+import 'package:medica_app/DataBase/model/model_bilirubine.dart';
+import 'package:medica_app/DataBase/model/model_clairance.dart';
+import 'package:medica_app/DataBase/model/model_tgo_tgp.dart';
 import 'package:medica_app/ui/Result.dart';
 import 'package:medica_app/ui/SplashScreen.dart';
 import 'package:medica_app/ui/ajouter_medicament.dart';
@@ -10,7 +10,7 @@ import 'package:medica_app/ui/adopy_posology.dart';
 import 'package:medica_app/ui/list_med.dart';
 import 'package:medica_app/ui/menu.dart';
 import 'package:medica_app/ui/searching_details.dart';
-import 'model/model_medicament.dart';
+import 'DataBase/model/model_medicament.dart';
 
 Medicament med_det;
 Medicament med_search;
